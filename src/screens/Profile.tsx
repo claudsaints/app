@@ -1,10 +1,10 @@
-import { View } from "react-native";
+import { View,Text } from "react-native";
+
 
 export function Profile(){
     return(
         <View>
-            oi perfilsassa
-
+            <Text>hi</Text>
         </View>
     )
 }

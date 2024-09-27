@@ -1,10 +1,13 @@
-import { Container } from "@components/index"
+import { Text } from "react-native"
+import { Container,StlBtn } from "../components/index"
 
-export function Welcome(){
+export function Welcome({navigation}:any){
     return(
         <Container>
-            oi bem sevndo
-
+            <Text>Welcome</Text>
+            <StlBtn onPress={() => navigation.navigate('home') }>
+                Hi
+            </StlBtn>
         </Container>
     )
 }
